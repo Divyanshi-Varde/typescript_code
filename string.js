@@ -1,0 +1,11 @@
+"use strict";
+let longText = "Hey this is a very long sentence!!";
+let shortText = longText.substring(0, 11);
+console.log(shortText);
+let str1 = "Hello";
+let str2 = "HELLO";
+let areEqual = str1 === str2;
+console.log(areEqual);
+let product = "Milk";
+let price = 50;
+let str = console.log(`The product ${product} is priced at ${price} rupees`);
